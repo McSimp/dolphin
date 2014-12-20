@@ -2178,7 +2178,7 @@ u32* GekkoDisassembler::DoDisassembly(bool big_endian)
 				break;
 
 			case 40:
-				fdabc(in, "neg", 10, 0);
+				fdabc(in, "neg", 9, 0);
 				break;
 
 			case 64:
